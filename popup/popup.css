@@ -1,3 +1,8 @@
+body {
+  min-width: 395px;
+  min-height: 371px;
+}
+
 
 /* Rectangle 1 */
 
@@ -13,7 +18,6 @@
   background: #131313;
   border: 1px solid #2F2F2F;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 14px;
 }
 
 /* Rectangle 3 */
@@ -41,17 +45,12 @@
   height: 37px;
   left: 108px;
   top: 45px;
-
   font-family: 'Hack NF';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 39px;
-  /* identical to box height */
-
-
   color: #FFFFFF;
-
 }
 
 /* Github icon */
@@ -178,24 +177,3 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 } 
-
-/* Off */
-
-
-/* position: absolute;
-width: 200px;
-height: 100px;
-left: 20px;
-top: 20px; */
-
-
-
-/* On */
-
-
-/* position: absolute;
-width: 200px;
-height: 100px;
-left: 356px;
-top: 20px; */
-
