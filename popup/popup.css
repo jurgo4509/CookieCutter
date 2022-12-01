@@ -22,7 +22,7 @@ top: 20px; */
 
 /* Rectangle 1 */
 
-.body {
+.rectangle1 {
   box-sizing: border-box;
   
   position: absolute;
@@ -39,44 +39,43 @@ top: 20px; */
 
 /* Rectangle 3 */
 
+.rectangle3 {
+  box-sizing: border-box;
 
-/* box-sizing: border-box;
+  position: absolute;
+  width: 395px;
+  height: 317px;
+  left: 0px;
+  top: 0px;
 
-position: absolute;
-width: 395px;
-height: 317px;
-left: 0px;
-top: 0px;
-
-background: #131313;
-border: 1px solid #2F2F2F;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 14px; */
-
+  background: #131313;
+  border: 1px solid #2F2F2F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+}
 
 /* CookieCutter */
 
+.CookieCutter {
+  position: absolute;
+  width: 201px;
+  height: 39px;
+  left: 80px;
+  top: 43px;
 
-/* position: absolute;
-width: 201px;
-height: 39px;
-left: 97px;
-top: 43px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px; */
-/* identical to box height */
-
-
-/* color: #FFFFFF;
-
-border: 1px solid #000000; */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
 
 
-/* Vector */
+  color: #FFFFFF;
+
+}
+
+/* Github icon */
 
 
 /* position: absolute;
@@ -88,37 +87,37 @@ bottom: 2.43%;
 background: #D9D9D9; */
 
 
-/* Rectangle 5 */
+/* Version box */
 
+.VersionBox {
+  position: absolute;
+  width: 86px;
+  height: 30px;
+  left: 298px;
+  top: 329px;
 
-/* position: absolute;
-width: 86px;
-height: 30px;
-left: 298px;
-top: 329px;
+  background: #D9D9D9;
+  border-radius: 6px;
+}
 
-background: #D9D9D9;
-border-radius: 6px; */
+/* Version Text */
 
+.VersionText {
+  position: absolute;
+  width: 78px;
+  height: 17px;
+  left: 297px;
+  top: 334px;
 
-/* v0.0.1 */
+  font-family: 'Hack NF';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
 
-
-/* position: absolute;
-width: 78px;
-height: 17px;
-left: 297px;
-top: 334px;
-
-font-family: 'Hack NF';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-text-align: right;
-
-color: #000000; */
-
+  color: #000000;
+}
 
 
 /* Switch */
