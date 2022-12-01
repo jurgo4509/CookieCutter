@@ -1,4 +1,4 @@
-![cepums](/icons/cookie.png)
+![cepums](/icons/cookiecutter.png)
 
 ## Goofy aah cookie window hider.
 
