@@ -1,29 +1,35 @@
 {
-
   "manifest_version": 2,
-  "name": "Web page annotator",
-  "description": "Displays a sidebar that lets you take notes on web pages.",
-  "version": "1.0",
+
+  "name": "CookieCutter",
+  "description": "Removes windows that warn you about the site using cookies.",
+  "version": "0.0.1",
+
+  "developer": {
+    "name": "Jurģis Ieviņš",
+    "url": "https://github.com/jurgo4509"
+  },
+
+  "homepage_url": "https://github.com/jurgo4509/CookieCutter",
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": "icons/cookie.svg",
+    "default_title": "CookieCutter",
+    "default_popup": "popup/popup.html"
+  },
+
+  "icons": {
+    "48": "icons/cookie.svg",
+    "96": "icons/cookie.svg"
+  },
+
   "browser_specific_settings": {
     "gecko": {
-      "strict_min_version": "54.0a1"
+      "id": "{652eee21-a4d6-47ce-b4b3-6f384bf37a8a}"
     }
   },
 
-  "sidebar_action": {
-    "default_icon": "icons/star.png",
-    "default_title" : "Annotator",
-    "default_panel": "sidebar/panel.html"
-  },
-
-  "permissions": ["storage", "tabs"],
-
-  "commands": {
-    "_execute_sidebar_action": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+Y"
-      }
-    }
-  }
+  "permissions": ["storage", "tabs"]
 
 }
