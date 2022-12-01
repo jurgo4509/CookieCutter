@@ -37,10 +37,10 @@
 
 .CookieCutter {
   position: absolute;
-  width: 201px;
-  height: 39px;
-  left: 80px;
-  top: 43px;
+  width: 232px;
+  height: 37px;
+  left: 108px;
+  top: 45px;
 
   font-family: 'Hack NF';
   font-style: normal;
@@ -64,6 +64,16 @@
   top: 325px;
   
   filter: invert(91%) sepia(0%) saturate(2%) hue-rotate(226deg) brightness(96%) contrast(95%);
+}
+
+/* CookieCutter icon */
+
+.CookieIcon {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 55px;
+  top: 40px;
 }
 
 /* Version box */
