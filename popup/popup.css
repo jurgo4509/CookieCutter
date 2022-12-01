@@ -1,23 +1,7 @@
 body {
   min-width: 395px;
   min-height: 371px;
-}
-
-
-/* Rectangle 1 */
-
-.rectangle1 {
-  box-sizing: border-box;
-  
-  position: absolute;
-  width: 395px;
-  height: 371px;
-  left: 0px;
-  top: 0px;
-
   background: #131313;
-  border: 1px solid #2F2F2F;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Rectangle 3 */
@@ -34,7 +18,7 @@ body {
   background: #131313;
   border: 1px solid #2F2F2F;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 14px;
+  border-radius: 10px;
 }
 
 /* CookieCutter */
