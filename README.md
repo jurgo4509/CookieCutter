@@ -1,6 +1,4 @@
-# CookieCutter
-
-![cepums](bilde.jpg)
+![cepums](/icons/cookie.png)
 
 ## Goofy aah cookie window hider.
 
@@ -9,9 +7,9 @@
 ### Darāmais
 
 - [ ] manifest.json
-- [ ] Paplašinājuma logs ar iestatījumiem
+- [x] Paplašinājuma logs ar iestatījumiem
 - [ ] Kods kas paslēpj cookie logus
-- [ ] Logo un dizains
+- [x] Logo un dizains
 - [ ] Dokumentācija
 
 ### Paplašinājumu veidoja:
