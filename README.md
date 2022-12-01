@@ -1,6 +1,6 @@
 ![cepums](/icons/cookiecutter.png)
 
-## Goofy aah cookie window hider.
+## Goofy aah biscuit window hider.
 
 Šis paplašinājums paslēps 'cookie' logus un atstās tos uz noklusētajiem iestatījumiem.
 
