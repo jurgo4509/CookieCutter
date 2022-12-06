@@ -11,6 +11,10 @@
     "url": "https://github.com/jurgo4509"
   },
 
+  "background": {
+    "scripts": ["thirdParty/jquery-2.0.3.js", "background.js"]
+  },
+
   "homepage_url": "https://github.com/jurgo4509/CookieCutter",
 
   "browser_action": {
